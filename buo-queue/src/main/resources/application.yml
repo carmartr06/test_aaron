@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: buo-queue
+  config:
+    import: configserver:http://localhost:8888
